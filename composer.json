@@ -1,0 +1,22 @@
+{
+    "name": "fousheezy/slim-core",
+    "description": "Core util classes for Slim Framework",
+    "type": "lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Foushee",
+            "email": "johnfoushee@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*"
+    },
+    "autoload": {
+        "psr-0": {"FzySlimCore\\": "src", "FzySlimCoreTest\\": "test"}
+    }
+
+}
