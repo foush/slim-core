@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "slim/slim": "^2.6"
+        "slim/slim": "^2.6",
+        "fousheezy/fzy-doctrine-utils": "^1.1"
     },
     "require-dev": {
         "phpunit/phpunit": "4.7.*"

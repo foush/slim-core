@@ -56,7 +56,7 @@ class PageTest extends \PHPUnit_Framework_TestCase {
 
     /**
      * @test
-     * @expectedException \FzySlimCore\Exception\Configuration\Invalid
+     * @expectedException \FzyUtils\Exception\Configuration\Invalid
      */
     public function invalidLimitBoundsCausesException()
     {
