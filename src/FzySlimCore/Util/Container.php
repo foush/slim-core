@@ -134,7 +134,7 @@ class Container {
     protected function inflateServiceParameter(Slim $app, $parameter)
     {
         if (is_string($parameter) && $parameter{0} == '@') {
-            $value = $this->stringToService($app, substr($parameter, 1));
+            $parameter = $this->stringToService($app, substr($parameter, 1));
         }
         return $parameter;
     }
